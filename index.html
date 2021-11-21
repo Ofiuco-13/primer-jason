@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+    <ul id="personas"></ul>
     <script>
         let persona = {
             "nombre": "Emmanuel",
@@ -28,9 +28,13 @@
             { nombre: "lola", nickname: "lolita" }
         ];
 
-        personas.forEach((key) => {
-            console.log(key);
-        })
+        let output = '';
+
+        for (let i = 0; i < personas.length; i++) {
+            output += `<li> ${personas[i].nombre} es ${personas[i].nickname}`;
+        }
+
+        document.querySelector("#personas").innerHTML = output;
     </script>
 </body>
 
