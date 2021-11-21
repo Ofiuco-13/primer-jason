@@ -1,0 +1,9 @@
+{
+    "personas": [
+        { "nombre": "fabian", "nickname": "vi" },
+        { "nombre": "jesus", "nickname": "123" }, 
+        { "nombre": "bella", "nickname": "bellita" },
+        { "nombre": "margarita", "nickname": "margarota" },
+        { "nombre": "lola", "nickname": "lolita" }
+    ]
+}
